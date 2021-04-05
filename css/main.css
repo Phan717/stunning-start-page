@@ -66,12 +66,12 @@ text-decoration: none;
 color: #eccee2;
 }
 
-nav a: hover {
+nav a:hover {
 background-color: #960062;
 }
 
 main {
-padding; 0 1rem;
+padding: 0 1rem;
 }
 
 main p {
@@ -80,7 +80,7 @@ font-size: 1.125rem;
 }
 
 h2 {
-0 0 1.5rem;
+margin: 0 0 1.5rem;
 font-family: "PT Sans Narrow", sans-serif;
 }
 
