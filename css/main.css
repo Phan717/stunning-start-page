@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: Gerogia, serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
-
 }
 
 *, *::before, *::after {
@@ -46,7 +45,7 @@ nav ul {
   padding: 0 1rem;
   height: 100%;
   display: flex;
-  justify-content: spa
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -54,7 +53,7 @@ nav a {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.125;
   background-color: #bd027d;
-  border: 2px solid "#960062";
+  border: 2px solid #960062;
   border-radius: 6px;
   padding: .5em .8em;
   font-weight: bold;
@@ -87,8 +86,9 @@ h2 {
 }
 
 section {
-  padding: 1.5rem;
-
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #afafaf;
+  border-top: 2px solid #afafaf;
 }
 section ul {
   margin: 0;
@@ -96,6 +96,7 @@ section ul {
   list-style-type: none;
 
   display: grid;
+  /*grid-temp;ate-colums: 1fr 1fr; */
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
@@ -149,4 +150,16 @@ section div img {
 
 section div strong {
   font-weight: normal;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding 1rem;
+  font-size: 0.875;
+  align-items: center;
+}
+
+foot a {
+  color: #000;
 }
